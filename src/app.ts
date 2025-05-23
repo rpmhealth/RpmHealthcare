@@ -12,6 +12,6 @@ app.use(cors());
 app.use(express.json());
 
 // Apply /healthcare to all APIs
-app.use('/healthcare', vitalSignsRoutes);
+app.use('/Rpmpulse', vitalSignsRoutes);
 
 export default app;
