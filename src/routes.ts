@@ -3,7 +3,7 @@ import { createVitalSigns, getRecentVitalSigns } from './controller/vital.contro
 
 const router = Router();
 
-router.post('/create', createVitalSigns);
-router.get('/recent', getRecentVitalSigns);
+router.post('/vital-signs', createVitalSigns);
+router.get('/vital-signs/data', getRecentVitalSigns);
 
 export default router;
